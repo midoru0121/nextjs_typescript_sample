@@ -16,7 +16,7 @@ export default class BlogsPage extends React.Component<IProps> {
       // const json = await response.json();
 
       // 通常では上記のように外部APIサーバーに対してデータを取得しにいきますが、今回は簡潔に済ますために
-      // static async getInitialProps() で直接データを returnする とにします。
+      // static async getInitialProps() で直接データを returnすることにします。
       // 下記のデータがAPIサーバーから返ってくると想定して、進めます。
 
       const json: ICurry[] = [
